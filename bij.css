@@ -1,27 +1,45 @@
-body, html {
-background-color: rgb( 235, 187, 129); 
-height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-
-.tekst{
+html, body {
+    background-color: rgb(235, 187, 129); 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; 
+  }
+  
+  .geheel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%; 
+  }
+  
+  .tekst {
     background-color: orange;
     color: white;
-    height: 10%;
+    width: 90%;
+    height: 80%; 
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    width: 90%;
-    margin-top: 6%;
-}
-.h1{
-    font-size: 45px;
-    
-}
-.geheel{
-    display: flex;
-    justify-content: space-evenly;
-}
+  }
+  
+  .h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .header {
+    height: 80vh;
+    width: 100vw; 
+    overflow: hidden;
+  }
+  
+  .header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+  }
+  
+  
