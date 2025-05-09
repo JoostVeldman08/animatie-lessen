@@ -3,4 +3,10 @@ background-color: rgb( 245, 187, 149);
 
 }
 
-
+.tekst{
+    background-color: orange;
+    color: white;
+    font-size: 4rem;
+    border-radius: 20px;
+    justify-content: center;
+}
