@@ -1,12 +1,27 @@
 body, html {
 background-color: rgb( 235, 187, 129); 
-
+height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .tekst{
     background-color: orange;
     color: white;
-    font-size: 4rem;
-    border-radius: 20px;
+    height: 20%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 8%;
+}
+.h1{
+    font-size: 5rem;
+    
+}
+.geheel{
+    display: flex;
+    justify-content: space-evenly;
 }
