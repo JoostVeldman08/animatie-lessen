@@ -25,3 +25,17 @@ height: 100%;
     display: flex;
     justify-content: space-evenly;
 }
+
+html { height: 100%; }
+body { min-height: 100%; }
+
+#move{
+    
+    
+    height: 300px;
+    aspect-ratio: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
